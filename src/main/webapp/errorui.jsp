@@ -5,7 +5,7 @@
 	<ul>
 		<li><p>
 				<b>Error: City Not Found</b> <br>
-				<%= request.getParameter("citynotfound")%>
+				<%= request.getParameter("data")%>
 				<br>
 	</ul>
 

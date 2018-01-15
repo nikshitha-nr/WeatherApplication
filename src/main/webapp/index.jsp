@@ -36,7 +36,7 @@ console.log(data);
 				if (data.includes('Error')) {
 					
 
-					$window.location.href = 'http://localhost:8080/Weather/errorui.jsp' + "?citynotfound=" + citynotfound;
+					$window.location.href = 'http://localhost:8080/Weather/errorui.jsp' + "?data=" + data;
 				} else {
 					console.log(data)
 					$scope.user = data;

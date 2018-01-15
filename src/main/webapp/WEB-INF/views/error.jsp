@@ -4,4 +4,4 @@
 <%@ page isELIgnored="false" %>
 
        Error:
-        ${data}
+        ${Citynotfound}

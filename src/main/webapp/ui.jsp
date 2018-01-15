@@ -11,13 +11,8 @@
 	<ul>
 		<li><p>
 				<b>Current Weather:</b> <br>
-				<%= request.getParameter("currentweathercondition")%>
-				<br>
-				<%= request.getParameter("temperature")%>
-				<br>
-				<%= request.getParameter("windspeed")%>
-				<br>
-				<%= request.getParameter("cityname")%>
+				<%= request.getParameter("data")%>
+			
 			</p></li>
 
 	</ul>
