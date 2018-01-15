@@ -3,6 +3,5 @@
 
 <%@ page isELIgnored="false" %>
 
-   Error:
-   
-   ${Citynotfound}
+       Error:
+        ${Citynotfound}

@@ -8,21 +8,17 @@
     ${weatherdesc }
     
     
-    
-    
       Temperature:
-      ${temparature }
+       ${temparature }
       
       
       
         WindSpeed:
       ${windspeed } 
       
-      
-      
-          
-           City Name:
-         ${cityname} 
+                
+      City Name:
+      ${cityname} 
         
   
    
