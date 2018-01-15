@@ -3,24 +3,25 @@
 
 <%@ page isELIgnored="false" %>
 
-		Current Weather Condition:
-		${weathermain}
-		${weatherdesc }
-		
-		
-		
-		
-		Temperature:
-   		${temparature }
-   		
-   		
-   		
-   		WindSpeed:
-  		${windspeed } 
-  		
-  		
-  		
-  		City Name:
+       Current Weather Condition:
+    ${weathermain}
+    ${weatherdesc }
+    
+    
+    
+    
+      Temperature:
+      ${temparature }
+      
+      
+      
+        WindSpeed:
+      ${windspeed } 
+      
+      
+      
+          
+           City Name:
          ${cityname} 
         
   
