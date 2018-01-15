@@ -32,19 +32,16 @@
 					postalCode : $scope.postalcode,
 				}
 			}).success(function(data) {
-
+console.log(data);
 				if (data.includes('Error')) {
-					var citynotfound = data.substr(10, 170);
+					
 
 					$window.location.href = 'http://localhost:8080/Weather/errorui.jsp' + "?citynotfound=" + citynotfound;
 				} else {
+					console.log(data)
 					$scope.user = data;
-					var currentweathercondition = data.substr(10, 50);
-					var temperature = data.substring(70, 110);
-					var windspeed = data.substring(130, 170);
-					var cityname = data.substring(175, 220);
-
-					$window.location.href = 'http://localhost:8080/Weather/ui.jsp' + "?currentweathercondition=" + currentweathercondition + "&temperature=" + temperature + "&windspeed=" + windspeed + "&cityname=" + cityname;
+					
+					$window.location.href = 'http://localhost:8080/Weather/ui.jsp' + "?data=" + data;
 
 
 				}
